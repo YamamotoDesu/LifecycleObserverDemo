@@ -82,14 +82,12 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
     }
     override fun onStart() {
         super.onStart()
-        dessertTimer.startTimer()
         Timber.i("onStart Called")
     }
 
 
     override fun onStop() {
         super.onStop()
-        dessertTimer.stopTimer()
         Timber.i("onStop Called")
     }
 ```
