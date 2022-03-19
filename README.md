@@ -131,3 +131,6 @@ class DessertTimer(lifecycle: Lifecycle) : LifecycleObserver {
     }
 ```
 
+### Check out the Handling Lifecycles with [Lifecycle-Aware Components Documentation](https://developer.android.com/topic/libraries/architecture/lifecycle)
+
+
